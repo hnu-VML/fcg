@@ -6,7 +6,7 @@
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
 
 ## Overview
-Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_".  IEEE TNNLS 2023. [Paper](https://ieeexplore.ieee.org/document/10260685/)
+Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_". IEEE TNNLS 2023. [Paper](https://ieeexplore.ieee.org/document/10260685/)
 
 ## Environment Setup
 
