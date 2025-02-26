@@ -1,46 +1,27 @@
-# SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition
-> **Authors:** 
-> [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
+# INR-ECGAN: Enhanced Conditional GAN with Implicit Neural Representation for SAR-to-Optical Image Translation
+> **Authors:**
 > *Chenguo Feng*,
-> [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
-> and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
+> *Yang Liu*,
+> *Nan Wang*,
+> *Zhiyang Chen*,
+> [*Xiaohui Wei*](https://scholar.google.com.hk/citations?hl=zh-CN&user=Uq50h3gAAAAJ),
+> and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
 
 ## Overview
-Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_".  IEEE TNNLS 2023. [Paper](https://ieeexplore.ieee.org/document/10260685/)
+Code implementation of "_**INR-ECGAN: Enhanced Conditional GAN with Implicit Neural Representation for SAR-to-Optical Image Translation**_". CAC 2024. [Paper](https://ieeexplore.ieee.org/abstract/document/10864577/)
 
-## Environment Setup
-
-- Python 3.9 or higher
-- PyTorch 1.12 or higher
-- CUDA Toolkit (choose the appropriate version based on your GPU configuration)
-
-## Usage
-### 1. Prepare data
-We use Dataset.py to process the CAVE and Harvard datasets. You can obtain the training dataset and test dataset according to your own processing method, and then modify the corresponding file paths in Train.py.
-
-### 2. Train
-To train SSTF-Unet with costumed path:
-
-```bash
-python Train.py
-```
-### 3. Inference
-
-Select the best performing model and modify the corresponding model weight path in Construct.py. Then, to obtain the reconstructed hyperspectral images:
-
-```bash
-python Construct.py
-```
+Please note: The code of our INR-ECGAN has been open sourced at https://github.com/lyltbafw/INR-ECGAN.
 
 ## Citation
 
 Please cite our paper if you find the work useful, thanks!
 
-    @article{liu2023sstf,
-      title={SSTF-Unet: Spatial--spectral transformer-based U-Net for high-resolution hyperspectral image acquisition},
-      author={Liu, Haibo and Feng, Chenguo and Dian, Renwei and Li, Shutao},
-      journal={IEEE Transactions on Neural Networks and Learning Systems},
-      year={2023},
-      publisher={IEEE}
+    @inproceedings{feng2024inr,
+      title={INR-ECGAN: An Enhanced Conditional GAN with Implicit Neural Representation for SAR-to-Optical Image Translation},
+      author={Feng, Chenguo and Liu, Yang and Wang, Nan and Chen, Zhiyang and Wei, Xiaohui and Liu, Haibo},
+      booktitle={2024 China Automation Congress (CAC)},
+      pages={4358--4363},
+      year={2024},
+      organization={IEEE}
     }
  
