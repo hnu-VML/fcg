@@ -16,7 +16,7 @@ Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net
 
 ## Usage
 ### 1. Prepare data
-We use the CAVE and Harvard datasets. You can obtain the training dataset and test dataset according to your own processing method, and then modify the corresponding file paths in Train.py.
+We use Dataset.py to process the CAVE and Harvard datasets. You can obtain the training dataset and test dataset according to your own processing method, and then modify the corresponding file paths in Train.py.
 
 ### 2. Train
 To train SSTF-Unet with costumed path:
