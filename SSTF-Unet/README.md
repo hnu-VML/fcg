@@ -7,7 +7,6 @@
 
 ## Overview
 Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_".  IEEE TNNLS 2023. [Paper](https://ieeexplore.ieee.org/document/10260685/)
-本项目为论文《[论文标题]》的源码实现，旨在实现/展示/验证论文中的方法或算法。具体包括 [简要描述论文的研究内容或贡献]。该项目实现了论文中所提到的主要算法和实验，旨在帮助他人复现论文中的结果，并为进一步的研究提供参考。
 
 ## Environment Setup
 
@@ -16,5 +15,32 @@ Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net
 - CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
 ## Usage
+### 1. Prepare data
+We use the CAVE and Harvard datasets. You can obtain the training dataset and test dataset according to your own processing method, and then modify the corresponding file paths in Train.py.
 
+### 2. Train
+To train SSTF-Unet with costumed path:
 
+```bash
+python Train.py
+```
+### 3. Inference
+
+Select the best performing model and modify the corresponding model weight path in Construct.py. Then, to obtain the reconstructed hyperspectral images:
+
+```bash
+python Construct.py
+```
+
+## Citation
+
+Please cite our paper if you find the work useful, thanks!
+
+    @article{liu2023sstf,
+      title={SSTF-Unet: Spatial--spectral transformer-based U-Net for high-resolution hyperspectral image acquisition},
+      author={Liu, Haibo and Feng, Chenguo and Dian, Renwei and Li, Shutao},
+      journal={IEEE Transactions on Neural Networks and Learning Systems},
+      year={2023},
+      publisher={IEEE}
+    }
+ 
