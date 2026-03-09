@@ -3,7 +3,7 @@
 > *Chenguo Feng*,
 > [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
 > [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
-> [Yang Liu](https://github.com/YonderL),
+> [*Yang Liu*](https://github.com/YonderL),
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
 
 ## Overview
