@@ -11,8 +11,8 @@ Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Effi
 
 ## Environment Setup
 
-- Python 3.9 or higher
-- PyTorch 1.12 or higher
+- Python 3.8 or higher
+- PyTorch 1.13 or higher
 - CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
 <!--
