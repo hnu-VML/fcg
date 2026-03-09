@@ -1,6 +1,6 @@
 # SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution
 > **Authors:**
-> *Chenguo Feng*
+> *Chenguo Feng*,
 > [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
 > [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
 > [*Yang Liu*](https://github.com/YonderL),
