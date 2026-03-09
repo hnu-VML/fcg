@@ -1,7 +1,7 @@
 # INR-ECGAN: Enhanced Conditional GAN with Implicit Neural Representation for SAR-to-Optical Image Translation
 > **Authors:**
 > *Chenguo Feng*,
-> *Yang Liu*,
+> [*Yang Liu*](https://github.com/YonderL),
 > *Nan Wang*,
 > *Zhiyang Chen*,
 > [*Xiaohui Wei*](https://scholar.google.com.hk/citations?hl=zh-CN&user=Uq50h3gAAAAJ),
