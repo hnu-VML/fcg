@@ -1,12 +1,13 @@
-# SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition
-> **Authors:** 
+# SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution
+> **Authors:**
+> *Chenguo Feng*
 > [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
-> *Chenguo Feng*,
 > [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
+> [*Yang Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
 
 ## Overview
-Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_". IEEE TNNLS 2023. [Paper](https://ieeexplore.ieee.org/document/10260685/)
+Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.
 
 ## Environment Setup
 
@@ -14,6 +15,7 @@ Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net
 - PyTorch 1.12 or higher
 - CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
+<!--
 ## Usage
 ### 1. Prepare data
 We use Dataset.py to process the CAVE and Harvard datasets. You can obtain the training dataset and test dataset according to your own processing method, and then modify the corresponding file paths in Train.py.
@@ -43,4 +45,4 @@ Please cite our paper if you find the work useful, thanks!
       year={2023},
       publisher={IEEE}
     }
- 
+-->
