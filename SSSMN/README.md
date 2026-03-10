@@ -15,6 +15,18 @@ Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Effi
 - PyTorch 1.13 or higher
 - CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
+## Citation
+
+Please cite our paper if you find the work useful, thanks!
+
+    @article{feng2026sssmn,
+      title={SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution},
+      author={Feng, Chenguo and Liu, Haibo and Dian, Renwei and Liu, Yang and Li, Shutao},
+      journal={Pattern Recognition},
+      year={2026},
+      publisher={Elsevier}
+    }
+
 <!--
 ## Usage
 ### 1. Prepare data
@@ -33,16 +45,4 @@ Select the best performing model and modify the corresponding model weight path 
 ```bash
 python Construct.py
 ```
-
-## Citation
-
-Please cite our paper if you find the work useful, thanks!
-
-    @article{liu2023sstf,
-      title={SSTF-Unet: Spatial--spectral transformer-based U-Net for high-resolution hyperspectral image acquisition},
-      author={Liu, Haibo and Feng, Chenguo and Dian, Renwei and Li, Shutao},
-      journal={IEEE Transactions on Neural Networks and Learning Systems},
-      year={2023},
-      publisher={IEEE}
-    }
 -->
