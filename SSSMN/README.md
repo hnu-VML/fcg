@@ -7,7 +7,7 @@
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
 
 ## Overview
-Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.
+Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.  [Paper](https://doi.org/10.1016/j.patcog.2026.113462)
 
 ## Environment Setup
 
