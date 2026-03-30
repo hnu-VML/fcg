@@ -1,12 +1,16 @@
 # Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion
 > **Authors:**
 > *Xiaoyang Hou*<sup>&dagger;</sup>,
-> *Lingxi Zhou*,
-> *Chenguo Feng*,
+> *Lingxi Zhou*<sup>&dagger;</sup>,
+> *Chenguo Feng*<sup>&dagger;</sup>,
 > *Hao Cha*,
 > [*Yang Liu*](https://github.com/YonderL),
-> *Liguo Liu*,
+> *Liguo Liu*✉️,
 > and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
+>
+> <sup>&dagger;</sup> These authors contributed equally to this work
+> ✉️ Corresponding author.
+
 
 ## Overview
 Code implementation of "_**Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion**_". MDPI Remote Sensing 2026.  [Paper](https://www.mdpi.com/2072-4292/18/7/975)
