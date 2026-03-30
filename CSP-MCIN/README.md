@@ -8,7 +8,9 @@
 > *Liguo Liu*✉️,
 > and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
 >
-> <sup>&dagger;</sup> These authors contributed equally to this work. ✉️ Corresponding author.
+> <sup>&dagger;</sup> These authors contributed equally to this work.
+>
+> ✉️ Corresponding author.
 
 
 ## Overview
