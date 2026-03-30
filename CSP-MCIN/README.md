@@ -5,7 +5,7 @@
 > *Chenguo Feng*<sup>&dagger;</sup>,
 > *Hao Cha*,
 > [*Yang Liu*](https://github.com/YonderL),
-> *Liguo Liu*✉️,
+> *Liguo Liu*&#x2709;&#xFE0F;,
 > and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
 >
 > <sup>&dagger;</sup> These authors contributed equally to this work.
