@@ -1,6 +1,6 @@
 # Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion
 > **Authors:**
-> *Xiaoyang Hou*<sup>&dagger</sup>,
+> *Xiaoyang Hou*<sup>&dagger;</sup>,
 > *Lingxi Zhou*,
 > *Chenguo Feng*,
 > *Hao Cha*,
