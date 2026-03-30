@@ -5,12 +5,12 @@
 > *Chenguo Feng*<sup>&dagger;</sup>,
 > *Hao Cha*,
 > [*Yang Liu*](https://github.com/YonderL),
-> *Liguo Liu*&#x2709;&#xFE0F;,
+> *Liguo Liu*<sup>&#x2709;&#xFE0F;</sup>,
 > and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
 >
 > <sup>&dagger;</sup> These authors contributed equally to this work.
 >
-> ✉️ Corresponding author (1309021015@nue.edu.cn).
+> <sup>&#x2709;&#xFE0F;</sup> Corresponding author (1309021015@nue.edu.cn).
 
 
 ## Overview
