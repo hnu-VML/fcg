@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+open-clip-torch
+ftfy
+timm
+regex
+numpy
+matplotlib
+pyyaml
+transformers
+safetensors
+tqdm
+huggingface-hub
+fsspec
+tensorboard
+pytorch_msssim
+typing-extensions

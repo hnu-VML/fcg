@@ -1,0 +1,75 @@
+data:
+  train_dir: /path/to/QXSLAB_SAROPT/train
+  val_dir: /path/to/QXSLAB_SAROPT/test
+  image_size: 256
+  inchannel:
+  - 1
+  - 1
+  outchannel: 1
+dataloader:
+  train_batch_size: 15
+  val_batch_size: 4
+  num_workers: 4
+  pin_memory: false
+model:
+  model_class: FusionNet_2gate
+  num_heads: 1
+  mlp_ratio: 1.0
+  dropout: 0.1
+  final_embedding_dim: 1024
+  depth: 18
+  stage1_checkpoint: null
+optimization:
+  lr: 0.0001
+  weight_decay: 0.0001
+scheduler:
+  type: none
+  step_size: 10
+  gamma: 0.5
+  min_lr: 1.0e-06
+training:
+  device: cuda:0
+  epochs: 120
+  max_steps: null
+  seed: 42
+  grad_clip: 1.0
+  grad_surgery: pcgrad
+  surgery_keys:
+  - sar_total_loss
+  - opt_total_loss
+  log_interval: 20
+  eval_interval: 1
+  checkpoint_interval: 1
+  save_best: true
+  stage2: false
+loss:
+  stage1_loss: pix_semantic_joint_loss_shallow_feature
+  stage2_loss: pix_semantic_joint_loss_shallow_feature
+  stage1_params:
+    pix_weight: 0.7
+    semantic_weight: 0.3
+    sar_weight: 0.3
+    opt_weight: 0.7
+    scd_weight: 0.6
+    cc_weight: 0.4
+    temperature: 0.07
+    semantic_shallow_weight: 0.7
+    semantic_infonce_weight: 0.3
+    layer_weights:
+      stem: 0.5
+      layer1: 0.2
+      layer2: 0.1
+      layer3: 0.1
+      layer4: 0.1
+  stage2_params: {}
+logging:
+  runs_dir: runs
+  run_name: QS
+  tensorboard: true
+  resume_from: null
+  eval_save_names:
+  - '2'
+  - '4'
+  - '10'
+  - '11'
+  - '19'

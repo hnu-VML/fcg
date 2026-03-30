@@ -1,0 +1,112 @@
+data:
+  # 训练集路径（必填）。示例：/data/train
+  train_dir: /path/to/train
+  # 验证集路径（必填）。示例：/data/val
+  val_dir: /path/to/val
+  # 训练/验证统一缩放后的边长，默认 224。示例：256
+  image_size: 256
+  # 不要动输入通道，目前只支持亮度融合
+  inchannel: [1, 1]
+  # 融合输出通道，1 表示单通道。示例：1
+  outchannel: 1
+
+dataloader:
+  # 训练 batch size，默认 4。示例：16
+  train_batch_size: 16
+  # 验证 batch size，默认 4。示例：4
+  val_batch_size: 4
+  # DataLoader 线程数，默认 4；填 defualt 用默认。示例：8
+  num_workers: defualt
+  # pin_memory 开关，默认 False；填 defualt 用默认。示例：true
+  pin_memory: defualt
+
+model:
+  # 模型类名（定义在 model.py 中）。示例：FusionNet_2gate
+  model_class: FusionNet_2gate
+  # 下列参数填 defualt 即用默认：num_heads=1、mlp_ratio=1.0、dropout=0.1、final_embedding_dim=1024
+  num_heads: defualt
+  mlp_ratio: defualt
+  dropout: defualt
+  final_embedding_dim: defualt
+  # 当前公开代码仅保留 ResNet-18 这一路径
+  depth: 18
+  # stage2 时的预训练 ckpt 路径，stage1 留 null。示例：checkpoints/stage1/best_epoch.pt
+  stage1_checkpoint: null
+
+optimization:
+  # 学习率，默认 1e-4。示例：1e-4
+  lr: 0.0001
+  # 权重衰减，默认 1e-4；填 defualt 用默认
+  weight_decay: defualt
+
+scheduler:
+  # 学习率调度器：none/cosine/step，默认 none。示例：cosine
+  type: none
+  # StepLR 的步长，默认 10；填 defualt 用默认。示例：10
+  step_size: defualt
+  # StepLR 的 gamma，默认 0.5；填 defualt 用默认。示例：0.5
+  gamma: defualt
+  # Cosine 的最小 lr，默认 1e-6；填 defualt 用默认。示例：1e-6
+  min_lr: defualt
+
+training:
+  # 设备，默认 cuda。示例：cuda:0
+  device: cuda:0
+  # 训练轮数，默认 20。示例：30
+  epochs: 160
+  # 每轮最大 step（调试用），默认 None；填 defualt 表示不限制。示例：100
+  max_steps: defualt
+  # 随机种子，默认 42。示例：42
+  seed: defualt
+  # 梯度裁剪阈值，默认 1.0。示例：1.0
+  grad_clip: defualt
+  # 梯度手术：none/pcgrad，默认 none。示例：none
+  grad_surgery: pcgrad
+  # pcgrad 时指定 loss key 列表，默认自动（None）
+  surgery_keys: ["sar_total_loss", "opt_total_loss"]
+  # 日志间隔 step，默认 20。示例：20
+  log_interval: defualt
+  # 验证间隔（按 epoch），默认 1。示例：1
+  eval_interval: defualt
+  # 存 ckpt 间隔（按 epoch），默认 1。示例：1
+  checkpoint_interval: defualt
+  # 是否保存 best。示例：true
+  save_best: true
+  # 是否开启 stage2（此文件为 stage1，保持 false）
+  stage2: false
+
+loss:
+  # 公开代码保留的训练损失
+  stage1_loss: pix_semantic_joint_loss_shallow_feature
+  stage2_loss: pix_semantic_joint_loss_shallow_feature
+  stage1_params:
+    pix_weight: 0.7
+    semantic_weight: 0.3
+    sar_weight: 0.3
+    opt_weight: 0.7
+    scd_weight: 0.6
+    cc_weight: 0.4
+    temperature: 0.07
+    semantic_shallow_weight: 0.7
+    semantic_infonce_weight: 0.3
+    layer_weights:
+      stem: 0.5
+      layer1: 0.2
+      layer2: 0.1
+      layer3: 0.1
+      layer4: 0.1
+  stage2_params: defualt
+
+logging:
+  # runs 基础目录，默认 ./runs；填 defualt 用默认
+  runs_dir: runs
+  # 自定义 run 子目录名，null 用时间戳自动生成
+  run_name: example
+  # 是否写 TensorBoard。示例：true
+  tensorboard: true
+  # 续训时指定 run 目录（stage1 通常 null）
+  resume_from: null
+  # 验证时指定保存可视化的样本名。示例：["sample1","sample2"]
+  eval_save_names:
+  - sample_001
+  - sample_010
