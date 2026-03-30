@@ -1,10 +1,12 @@
 # SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution
 > **Authors:**
 > *Chenguo Feng*,
-> [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
+> [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ)<sup>&#x2709;&#xFE0F;</sup>,
 > [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
 > [*Yang Liu*](https://github.com/YonderL),
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
+>
+> <sup>&#x2709;&#xFE0F;</sup> Corresponding author (haiboliu@hnu.edu.cn).
 
 ## Overview
 Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320326004280)
