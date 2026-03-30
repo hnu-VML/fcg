@@ -4,6 +4,8 @@
 > *Chenguo Feng*,
 > [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
 > and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
+>
+> <sup>&#x2709;&#xFE0F;</sup> Corresponding author (drw@hnu.edu.cn).
 
 ## Overview
 Code implementation of "_**SSTF-Unet: Spatial–Spectral Transformer-Based U-Net for High-Resolution Hyperspectral Image Acquisition**_". IEEE TNNLS 2024. [Paper](https://ieeexplore.ieee.org/document/10260685)
