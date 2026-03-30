@@ -5,7 +5,7 @@
 > *Nan Wang*,
 > *Zhiyang Chen*,
 > [*Xiaohui Wei*](https://scholar.google.com.hk/citations?hl=zh-CN&user=Uq50h3gAAAAJ),
-> and [*Haibo Liu*]<sup>&#x2709;&#xFE0F;</sup>(https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ).
+> and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ)<sup>&#x2709;&#xFE0F;</sup>.
 >
 > <sup>&dagger;</sup> These authors contributed equally to this work.
 >
