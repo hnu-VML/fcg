@@ -120,7 +120,7 @@ The download links above will be updated after the weight files are uploaded.
 
 Please cite our paper if you find the work useful, thanks!
 
-   @article{hou2026correlation,
+    @article{hou2026correlation,
     title={Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion},
     author={Hou, Xiaoyang and Zhou, Lingxi and Feng, Chenguo and Cha, Hao and Liu, Yang and Liu, Liguo and Liu, Haibo},
     journal={Remote Sensing},
