@@ -1,18 +1,20 @@
-# SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution
+# Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion
 > **Authors:**
+> *Xiaoyang Hou*,
+> *Lingxi Zhou*,
 > *Chenguo Feng*,
-> [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
-> [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
+> *Hao Cha*,
 > [*Yang Liu*](https://github.com/YonderL),
-> and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
+> *Liguo Liu*,
+> and [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),.
 
 ## Overview
-Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320326004280)
+Code implementation of "_**Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion**_". MDPI Remote Sensing 2026.  [Paper](https://www.mdpi.com/2072-4292/18/7/975)
 
 ## Environment Setup
 
-- Python 3.8 or higher
-- PyTorch 1.13 or higher
+- Python 3.10 or higher
+- PyTorch 2.5 or higher
 - CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
 ## Dataset Layout
