@@ -1,4 +1,19 @@
-# CSP-MCIN
+# SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution
+> **Authors:**
+> *Chenguo Feng*,
+> [*Haibo Liu*](https://scholar.google.com.hk/citations?hl=zh-CN&user=SisjYXYAAAAJ),
+> [*Renwei Dian*](https://scholar.google.com.hk/citations?hl=zh-CN&user=EoTrH5UAAAAJ),
+> [*Yang Liu*](https://github.com/YonderL),
+> and [*Shutao Li*](https://scholar.google.com.hk/citations?hl=zh-CN&user=PlBq8n8AAAAJ).
+
+## Overview
+Code implementation of "_**SSSMN: Spatial-Spectral Sparse Mamba Network for Efficient Hyperspectral Fusion Super-resolution**_". ELSEVIER PR 2026.  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320326004280)
+
+## Environment Setup
+
+- Python 3.8 or higher
+- PyTorch 1.13 or higher
+- CUDA Toolkit (choose the appropriate version based on your GPU configuration)
 
 ## Dataset Layout
 
@@ -98,3 +113,18 @@ The public code path is shared by the provided dataset configs listed above.
 | WHU-OPT-SAR | `configs/WOS.yaml` | Project checkpoint | TBD |
 
 The download links above will be updated after the weight files are uploaded.
+
+## Citation
+
+Please cite our paper if you find the work useful, thanks!
+
+   @article{hou2026correlation,
+    title={Correlation and Semantic Prior-Guided Multi-Scale Cross-Modal Interaction Network for SAR-OPT Image Fusion},
+    author={Hou, Xiaoyang and Zhou, Lingxi and Feng, Chenguo and Cha, Hao and Liu, Yang and Liu, Liguo and Liu, Haibo},
+    journal={Remote Sensing},
+    volume={18},
+    number={7},
+    pages={975},
+    year={2026},
+    publisher={MDPI}
+  }
